@@ -1,0 +1,20 @@
+input{
+    display: block;
+    margin: 20px;
+    width: 300px;
+    height: 20px;
+}
+h1{
+    margin: 30px
+}
+.btn{
+    margin-left: 100px;
+    background-color: #1100ff;
+    color:white;
+    border: 1px solid #00ccff;
+    border-radius: 30px;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    font-style: Arial;
+}

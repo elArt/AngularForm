@@ -1,0 +1,7 @@
+<h1>Register</h1>
+  <form #form='ngForm' autocomplete="off" (submit)='onSubmit(form)'>
+  <input name = 'fullName' #fullName='ngModel' [(ngModel)]="service.formData.fullName" class="form-control" placeholder="FullName" required>
+  <input name = 'position' #fullName='ngModel' [(ngModel)]="service.formData.position" class="form-control" placeholder="Position">
+  <input name = 'mobile' #fullName='ngModel' [(ngModel)]="service.formData.mobile" class="form-control" placeholder="Mobile">
+  <button type="submit" class="btn">Submit</button>
+</form>
